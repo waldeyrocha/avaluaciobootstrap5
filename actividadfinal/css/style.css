@@ -1,0 +1,31 @@
+
+
+:root{
+  --bg-color: #F53756;
+  --bghead-color: #3B9691;
+  --tx-color2: #752F97;
+  --tx-color3: #FFF;
+  --tx-color4: #000;
+}
+
+nav, .bg{
+  background-color: var(--bghead-color);
+}
+
+.bg-m{
+  background-color: var(--tx-color2);
+}
+
+h1, h2, .nav-link{
+  color: var(--tx-color3);
+}
+
+h3{
+  background-color: var(--bg-color);
+  color: var(--tx-color3);
+}
+
+.fw-bold{
+  color: var(--bg-color);
+}
+
